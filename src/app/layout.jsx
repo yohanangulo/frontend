@@ -1,6 +1,3 @@
-import Loader from "@/components/ui/Loader";
-import Script from "next/script";
-
 export const metadata = {
   title: "Ropa Deportiva Para Todos",
   description: "Tiendo en linea para la venta de ropa deportiva",
@@ -65,31 +62,7 @@ export default function RootLayout({ children }) {
           href="img/apple-touch-icon-114x114.png"
         />
       </head>
-      <body>
-        <main class="content-wrapper oh">
-          {/* <Loader /> */}
-          {children}</main>
-        <Script
-          defer
-          src="https://cdn.jsdelivr.net/gh/yohanangulo/cdn/js/jquery.min.js"
-        ></Script>
-        <Script
-          defer
-          src="https://cdn.jsdelivr.net/gh/yohanangulo/cdn/js/jquery.min.js"
-        ></Script>
-        <Script
-          defer
-          src="https://cdn.jsdelivr.net/gh/yohanangulo/cdn/js/bootstrap.min.js"
-        ></Script>
-        <Script
-          defer
-          src="https://cdn.jsdelivr.net/gh/yohanangulo/cdn/js/plugins.js"
-        ></Script>
-        <Script
-          defer
-          src="https://cdn.jsdelivr.net/gh/yohanangulo/cdn/js/scripts.js"
-        ></Script>
-      </body>
+      <body className="relative">{children}</body>
     </html>
   );
 }

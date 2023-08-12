@@ -138,13 +138,13 @@ const Header = () => {
                   {/* Logo */}
                   <div className="logo-container">
                     <div className="logo-wrap text-center">
-                      <a href="/">
+                      <Link href="/">
                         <img
                           className="logo"
                           src="https://cdn.jsdelivr.net/gh/yohanangulo/cdn/img/logo_dark.png"
                           alt="logo"
                         />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                   {/* Cart */}
@@ -281,6 +281,90 @@ const Header = () => {
                       </ul>
                     </li>
                     <li className="dropdown">
+  <a href="#">Categories</a>
+  <i className="fa fa-angle-down dropdown-trigger" />
+  <ul
+    className="dropdown-menu megamenu"
+    style={{ width: 1140, left: "-463.6px" }}
+  >
+    <li>
+      <div className="megamenu-wrap">
+        <div className="row">
+          <div className="col-md-3 megamenu-item">
+            <h6>For Man</h6>
+            <ul className="menu-list">
+              <li>
+                <a href="#">Shirts</a>
+              </li>
+              <li>
+                <a href="#">Jeans</a>
+              </li>
+              <li>
+                <a href="#">Accessories</a>
+              </li>
+              <li>
+                <a href="#">Shoes</a>
+              </li>
+            </ul>
+          </div>
+          <div className="col-md-3 megamenu-item">
+            <h6>For Woman</h6>
+            <ul className="menu-list">
+              <li>
+                <a href="#">Dresses</a>
+              </li>
+              <li>
+                <a href="#">Coats</a>
+              </li>
+              <li>
+                <a href="#">Accessories</a>
+              </li>
+              <li>
+                <a href="#">Sandals</a>
+              </li>
+            </ul>
+          </div>
+          <div className="col-md-3 megamenu-item">
+            <h6>Accessories</h6>
+            <ul className="menu-list">
+              <li>
+                <a href="#">Wallets</a>
+              </li>
+              <li>
+                <a href="#">Watches</a>
+              </li>
+              <li>
+                <a href="#">Belts</a>
+              </li>
+              <li>
+                <a href="#">Scarfs</a>
+              </li>
+            </ul>
+          </div>
+          <div className="col-md-3 megamenu-item">
+            <h6>Bags</h6>
+            <ul className="menu-list">
+              <li>
+                <a href="#">Leather</a>
+              </li>
+              <li>
+                <a href="#">Sports</a>
+              </li>
+              <li>
+                <a href="#">Street Style</a>
+              </li>
+              <li>
+                <a href="#">Creative</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</li>
+
+                    {/* <li className="dropdown">
                       <a href="#">Categories</a>
                       <i className="fa fa-angle-down dropdown-trigger" />
                       <ul className="dropdown-menu megamenu">
@@ -359,7 +443,7 @@ const Header = () => {
                           </div>
                         </li>
                       </ul>
-                    </li>{" "}
+                    </li> */}
                     {/* end categories */}
                     <li className="dropdown">
                       <a href="#">Blog</a>

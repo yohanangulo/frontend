@@ -1,7 +1,6 @@
 "use client";
 
 import Script from "next/script";
-import "@/assets/js/jquery.min.js";
 import { useState } from "react";
 
 const ScriptTags = () => {

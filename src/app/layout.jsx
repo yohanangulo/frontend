@@ -1,3 +1,4 @@
+import Loader from "@/components/ui/Loader";
 import Script from "next/script";
 
 export const metadata = {
@@ -65,12 +66,29 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body>
-        {children}
-        <Script defer src="https://cdn.jsdelivr.net/gh/yohanangulo/cdn/js/jquery.min.js"></Script>
-        <Script defer src="https://cdn.jsdelivr.net/gh/yohanangulo/cdn/js/jquery.min.js"></Script>
-        <Script defer src="https://cdn.jsdelivr.net/gh/yohanangulo/cdn/js/bootstrap.min.js"></Script>
-        <Script defer src="https://cdn.jsdelivr.net/gh/yohanangulo/cdn/js/plugins.js"></Script>
-        <Script defer src="https://cdn.jsdelivr.net/gh/yohanangulo/cdn/js/scripts.js"></Script>
+        <main class="content-wrapper oh">
+          {/* <Loader /> */}
+          {children}</main>
+        <Script
+          defer
+          src="https://cdn.jsdelivr.net/gh/yohanangulo/cdn/js/jquery.min.js"
+        ></Script>
+        <Script
+          defer
+          src="https://cdn.jsdelivr.net/gh/yohanangulo/cdn/js/jquery.min.js"
+        ></Script>
+        <Script
+          defer
+          src="https://cdn.jsdelivr.net/gh/yohanangulo/cdn/js/bootstrap.min.js"
+        ></Script>
+        <Script
+          defer
+          src="https://cdn.jsdelivr.net/gh/yohanangulo/cdn/js/plugins.js"
+        ></Script>
+        <Script
+          defer
+          src="https://cdn.jsdelivr.net/gh/yohanangulo/cdn/js/scripts.js"
+        ></Script>
       </body>
     </html>
   );

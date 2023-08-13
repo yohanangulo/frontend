@@ -1,15 +1,14 @@
-'use client'
+"use client";
 
 import ScriptTags from "@/components/ScriptTags";
 import Footer from "@/components/ui/Footer";
 import Header from "@/components/ui/Header";
 
-
 export default function Home() {
 
   return (
-        <>
-    <Header />
+    <>
+      <Header />
       {/* Hero Slider */}
       <main className="content-wrapper oh">
         <section className="section-wrap nopadding">
@@ -40,7 +39,9 @@ export default function Home() {
                     <div className="img-holder img-2" />
                     <div className="hero-holder text-center">
                       <div className="hero-lines">
-                        <h1 className="hero-heading white large">Winter Sales</h1>
+                        <h1 className="hero-heading white large">
+                          Winter Sales
+                        </h1>
                       </div>
                       <a href="#" className="btn btn-lg btn-white">
                         <span>Shop Now</span>
@@ -102,7 +103,7 @@ export default function Home() {
             <div className="row heading-row">
               <div className="col-md-12 text-center">
                 <h2 className="heading uppercase">
-                  <small>New Arrivals</small>
+                  <small>lo mas nuevo</small>
                 </h2>
               </div>
             </div>
@@ -344,18 +345,20 @@ export default function Home() {
           <div className="row">
             <div className="col-sm-12">
               <div className="newsletter-box">
-                <h5 className="uppercase">Subscribe to Receive Our Updates</h5>
+                <h5 className="uppercase">suscribete para estar al tanto!</h5>
                 <form>
                   <input
                     type="email"
                     className="newsletter-input"
-                    placeholder="Your email"
+                    placeholder="tu email"
                   />
-                  <input
+                  <button
                     type="submit"
                     className="newsletter-submit btn btn-md btn-dark"
                     defaultValue="subscribe"
-                  />
+                  >
+                    enviar
+                  </button>
                 </form>
               </div>
             </div>
@@ -367,7 +370,7 @@ export default function Home() {
             <div className="row heading-row">
               <div className="col-md-12 text-center">
                 <h2 className="heading uppercase">
-                  <small>Best Sellers</small>
+                  <small>Lo más vendido</small>
                 </h2>
               </div>
             </div>
@@ -685,6 +688,5 @@ export default function Home() {
       <Footer />
       <ScriptTags /> 
     </>
-
   );
 }

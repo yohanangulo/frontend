@@ -10,81 +10,20 @@ const Header = () => {
               <div className="top-bar-links">
                 <ul className="col-sm-6 top-bar-acc">
                   <li className="top-bar-link">
-                    <a href="#">My Account</a>
+                    <Link href="#">Mi cuenta</Link>
                   </li>
-                  <li className="top-bar-link">
+                  {/* <li className="top-bar-link">
                     <a href="#">My Wishlist</a>
-                  </li>
-                  <li className="top-bar-link">
+                  </li> */}
+                  {/* <li className="top-bar-link">
                     <a href="#">Newsletter</a>
-                  </li>
+                  </li> */}
                   <li className="top-bar-link">
-                    <Link href="sign-in">Login</Link>
+                    <Link href="sign-in">Iniciar sesion</Link>
                   </li>
-                  <li className="top-bar-link">
+                  {/* <li className="top-bar-link">
                     <a href="contact.html">Contact</a>
-                  </li>
-                </ul>
-                <ul className="col-sm-6 text-right top-bar-currency-language">
-                  <li>
-                    Currency:{" "}
-                    <a href="#">
-                      USD
-                      <i className="fa fa-angle-down" />
-                    </a>
-                    <div className="currency-dropdown">
-                      <ul>
-                        <li>
-                          <a href="#">USD</a>
-                        </li>
-                        <li>
-                          <a href="#">EUR</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </li>
-                  <li className="language">
-                    Language:{" "}
-                    <a href="#">
-                      ENG
-                      <i className="fa fa-angle-down" />
-                    </a>
-                    <div className="language-dropdown">
-                      <ul>
-                        <li>
-                          <a href="#">English</a>
-                        </li>
-                        <li>
-                          <a href="#">Spanish</a>
-                        </li>
-                        <li>
-                          <a href="#">German</a>
-                        </li>
-                        <li>
-                          <a href="#">Chinese</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="social-icons">
-                      <a href="#">
-                        <i className="fa fa-twitter" />
-                      </a>
-                      <a href="#">
-                        <i className="fa fa-facebook" />
-                      </a>
-                      <a href="#">
-                        <i className="fa fa-google-plus" />
-                      </a>
-                      <a href="#">
-                        <i className="fa fa-linkedin" />
-                      </a>
-                      <a href="#">
-                        <i className="fa fa-vimeo" />
-                      </a>
-                    </div>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -123,7 +62,7 @@ const Header = () => {
               <div className="header-wrap">
                 <div className="header-wrap-holder">
                   {/* Search */}
-                  <div className="nav-search hidden-sm hidden-xs">
+                  <div className="nav-search hidden-sm hidden-xs invisible">
                     <form method="get">
                       <input
                         type="search"
@@ -227,7 +166,7 @@ const Header = () => {
                     </div>
                     <div className="menu-cart-amount right">
                       <span>
-                        Cart /<a href="#"> $1299.50</a>
+                        Carrito /<a href="#"> $1299.50</a>
                       </span>
                     </div>
                   </div>{" "}
@@ -251,7 +190,7 @@ const Header = () => {
                       </form>
                     </li>
                     <li>
-                      <a href="index.html">Home</a>
+                      <Link href="/">Inicio</Link>
                     </li>
                     <li className="dropdown">
                       <a href="#">Pages</a>
@@ -281,93 +220,12 @@ const Header = () => {
                       </ul>
                     </li>
                     <li className="dropdown">
-  <a href="#">Categories</a>
-  <i className="fa fa-angle-down dropdown-trigger" />
-  <ul
-    className="dropdown-menu megamenu"
-    style={{ width: 1140, left: "-463.6px" }}
-  >
-    <li>
-      <div className="megamenu-wrap">
-        <div className="row">
-          <div className="col-md-3 megamenu-item">
-            <h6>For Man</h6>
-            <ul className="menu-list">
-              <li>
-                <a href="#">Shirts</a>
-              </li>
-              <li>
-                <a href="#">Jeans</a>
-              </li>
-              <li>
-                <a href="#">Accessories</a>
-              </li>
-              <li>
-                <a href="#">Shoes</a>
-              </li>
-            </ul>
-          </div>
-          <div className="col-md-3 megamenu-item">
-            <h6>For Woman</h6>
-            <ul className="menu-list">
-              <li>
-                <a href="#">Dresses</a>
-              </li>
-              <li>
-                <a href="#">Coats</a>
-              </li>
-              <li>
-                <a href="#">Accessories</a>
-              </li>
-              <li>
-                <a href="#">Sandals</a>
-              </li>
-            </ul>
-          </div>
-          <div className="col-md-3 megamenu-item">
-            <h6>Accessories</h6>
-            <ul className="menu-list">
-              <li>
-                <a href="#">Wallets</a>
-              </li>
-              <li>
-                <a href="#">Watches</a>
-              </li>
-              <li>
-                <a href="#">Belts</a>
-              </li>
-              <li>
-                <a href="#">Scarfs</a>
-              </li>
-            </ul>
-          </div>
-          <div className="col-md-3 megamenu-item">
-            <h6>Bags</h6>
-            <ul className="menu-list">
-              <li>
-                <a href="#">Leather</a>
-              </li>
-              <li>
-                <a href="#">Sports</a>
-              </li>
-              <li>
-                <a href="#">Street Style</a>
-              </li>
-              <li>
-                <a href="#">Creative</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </li>
-  </ul>
-</li>
-
-                    {/* <li className="dropdown">
-                      <a href="#">Categories</a>
+                      <a href="#">Categorías</a>
                       <i className="fa fa-angle-down dropdown-trigger" />
-                      <ul className="dropdown-menu megamenu">
+                      <ul
+                        className="dropdown-menu megamenu"
+                        style={{ width: 1140, left: "-463.6px" }}
+                      >
                         <li>
                           <div className="megamenu-wrap">
                             <div className="row">
@@ -443,7 +301,7 @@ const Header = () => {
                           </div>
                         </li>
                       </ul>
-                    </li> */}
+                    </li>
                     {/* end categories */}
                     <li className="dropdown">
                       <a href="#">Blog</a>

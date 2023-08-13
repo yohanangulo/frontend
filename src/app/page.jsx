@@ -1,8 +1,8 @@
 "use client";
 
 import ScriptTags from "@/components/ScriptTags";
-import Footer from "@/components/ui/Footer";
-import Header from "@/components/ui/Header";
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 
 export default function Home() {
 
@@ -17,7 +17,7 @@ export default function Home() {
               <div className="flexslider" id="flexslider-hero">
                 <ul className="slides clearfix">
                   <li>
-                    <img src="https://cdn.jsdelivr.net/gh/yohanangulo/cdn/img/slider/1.jpg" />
+                    <img src="https://cdn.jsdelivr.net/gh/yohanangulo/cdn@latest/img/slider/1.jpg" />
                     <div className="img-holder img-1" />
                     <div className="hero-holder text-center right-align">
                       <div className="hero-lines">
@@ -33,7 +33,7 @@ export default function Home() {
                   </li>
                   <li>
                     <img
-                      src="https://cdn.jsdelivr.net/gh/yohanangulo/cdn/img/slider/2.jpg"
+                      src="https://cdn.jsdelivr.net/gh/yohanangulo/cdn@latest/img/slider/2.jpg"
                       alt=""
                     />
                     <div className="img-holder img-2" />
@@ -50,7 +50,7 @@ export default function Home() {
                   </li>
                   <li>
                     <img
-                      src="https://cdn.jsdelivr.net/gh/yohanangulo/cdn/img/slider/3.jpg"
+                      src="https://cdn.jsdelivr.net/gh/yohanangulo/cdn@latest/img/slider/3.jpg"
                       alt=""
                     />
                     <div className="img-holder img-3" />
@@ -71,7 +71,7 @@ export default function Home() {
                   </li>
                   <li>
                     <img
-                      src="https://cdn.jsdelivr.net/gh/yohanangulo/cdn/img/slider/4.jpg"
+                      src="https://cdn.jsdelivr.net/gh/yohanangulo/cdn@latest/img/slider/4.jpg"
                       alt=""
                     />
                     <div className="img-holder img-4" />
@@ -353,7 +353,7 @@ export default function Home() {
                     placeholder="tu email"
                   />
                   <button
-                    type="submit"
+                    type="button"
                     className="newsletter-submit btn btn-md btn-dark"
                     defaultValue="subscribe"
                   >

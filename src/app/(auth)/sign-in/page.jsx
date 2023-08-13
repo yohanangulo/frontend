@@ -1,7 +1,7 @@
 'use client'
 import ScriptTags from "@/components/ScriptTags";
-import Footer from "@/components/ui/Footer";
-import Header from "@/components/ui/Header";
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 
 const Login = () => {
   return (

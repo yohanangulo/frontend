@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Ropa Deportiva Para Todos",
+  title: "Cool Store",
   description: "Tiendo en linea para la venta de ropa deportiva",
 };
 

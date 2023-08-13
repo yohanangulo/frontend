@@ -80,7 +80,7 @@ const Header = () => {
                       <Link href="/">
                         <img
                           className="logo"
-                          src="https://cdn.jsdelivr.net/gh/yohanangulo/cdn/img/logo_dark.png"
+                          src="https://cdn.jsdelivr.net/gh/yohanangulo/cdn@latest/img/logo_dark.png"
                           alt="logo"
                         />
                       </Link>
@@ -102,7 +102,7 @@ const Header = () => {
                             <div className="nav-cart-img">
                               <a href="#">
                                 <img
-                                  src="https://cdn.jsdelivr.net/gh/yohanangulo/cdn/img/shop/cart_small_1.jpg"
+                                  src="https://cdn.jsdelivr.net/gh/yohanangulo/cdn@latest/img/shop/cart_small_1.jpg"
                                   alt=""
                                 />
                               </a>
@@ -124,7 +124,7 @@ const Header = () => {
                             <div className="nav-cart-img">
                               <a href="#">
                                 <img
-                                  src="https://cdn.jsdelivr.net/gh/yohanangulo/cdn/img/shop/cart_small_2.jpg"
+                                  src="https://cdn.jsdelivr.net/gh/yohanangulo/cdn@latest/img/shop/cart_small_2.jpg"
                                   alt=""
                                 />
                               </a>
